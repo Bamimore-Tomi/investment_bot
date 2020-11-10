@@ -45,7 +45,7 @@ def deposit(update , contex):
     thread.start()
     
 def main():
-    updater = Updater(token='1455581354:AAGx1at9mgkAf-5YVJNRsvRB66AeZTenBwQ', use_context=True)
+    updater = Updater(token='secret_token', use_context=True)
     dispatcher = updater.dispatcher
     
     deposit_handler = MessageHandler(Filters.regex('(Deposit|deposit|d)'), deposit)
