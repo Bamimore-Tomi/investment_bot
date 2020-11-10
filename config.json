@@ -1,0 +1,20 @@
+
+
+
+{
+
+    "db":{
+
+        "host":"localhost",
+        "port":27017,
+        "db_name":"tomsbank"
+    },
+    "messages":{
+        "welcome":"Welcome to Toms holdings, what will you like to do ?",
+        "deposit":"This is your unique deposit address \n *{}* \n Please do not transfer any other crypto asset apart from *LTC* to this address."
+    },
+    "deposit":{
+
+    }
+
+}
